@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Shopping site: Amazon.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/shared/general.css" />
+    <link rel="stylesheet" href="styles/pages/amazon.css" />
+    <link rel="stylesheet" href="styles/shared/amazon-header.css" />
+  </head>
+  <body>
+    <div class="amazon-header">
+      <div class="amazon-header-left-section">
+        <a href="index.html" class="header-link">
+          <img class="amazon-logo" src="images/amazon-logo-white.png" />
+          <img
+            class="amazon-mobile-logo"
+            src="images/amazon-mobile-logo-white.png"
+          />
+        </a>
+        <a href="#" class="header-link delivery-address">
+          <p class="upper-part">Deliver to</p>
+          <div class="icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="lower-part">India</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="amazon-header-middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <button class="search-button">
+          <img class="search-icon" src="images/icons/search-icon.png" />
+        </button>
+      </div>
+
+      <div class="amazon-header-right-section">
+        <a class="language-selector header-link">
+          <img src="images/icons/india-flag-icon.png" alt="Indian_flag" />
+          <span class="lang-select"> EN </span
+          ><i class="fa-solid fa-sm fa-caret-down dark"></i>
+        </a>
+        <a class="account header-link">
+          <div class="upper-part">Hello, sign in</div>
+          <div class="lower-part">
+            <span>Account & Lists</span>
+            <i class="fa-solid fa-sm fa-caret-down dark"></i>
+          </div>
+        </a>
+        <a class="header-link" href="orders.html">
+          <div class="returns-text">Returns</div>
+          <div class="orders-text">& Orders</div>
+        </a>
+
+        <a class="cart-link header-link" href="#">
+          <img class="cart-icon" src="images/icons/cart-icon.png" />
+          <div class="cart-quantity"></div>
+          <div class="cart-text">Cart</div>
+        </a>
+      </div>
+    </div>
+    <div class="navigation-menu">
+      <div class="menu header-link">
+        <i class="fa-solid fa-bars"></i><span>All</span>
+      </div>
+      <div class="header-link">Today's Deals</div>
+      <div class="header-link">Customer Service</div>
+      <div class="header-link">Registry</div>
+      <div class="header-link">Gift Cards</div>
+      <div class="header-link">Sell</div>
+    </div>
+    <div class="main">
+      <div class="products-grid"></div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/c776d8dd38.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="scripts/index.js"></script>
+  </body>
+</html>

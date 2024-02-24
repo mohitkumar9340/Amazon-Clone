@@ -1,0 +1,36 @@
+
+.empty-cart-container {
+  text-align: center;
+  margin: 5px auto;
+  padding-top: 50px;
+}
+
+.cart-image-container{
+  width: 35%;
+  margin: 10px auto;
+}
+
+.empty-cart-container img {
+  width: 100%;
+}
+
+.empty-cart-container p {
+  font-family: Roboto;
+  font-size: 28px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.empty-cart-container a {
+  display:inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.empty-cart-container a:hover {
+  background-color: #2980b9;
+}
